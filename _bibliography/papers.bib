@@ -1,6 +1,26 @@
 
-@article{ISCA,
-  abbr={ISCA},
+@article{Under Submission,
+  abbr={Under Submission},
+  title={In-Storage Secure Multi-Party Acceleration for Inference Privacy},
+  author={Mahapatra, R},
+  abstract={Identified that memory and communication overheads in Secure Multi-Party Computation (SMPC) proto-
+cols constrain the scalability of privacy-preserving neural inference. Proposed embedding accelerators
+within storage devices, where each storage unit functions as a computational node, and utilizing the
+system interconnect (PCIe) to facilitate inference processing. This approach enhances both performance
+(3.9× ) and energy efficiency (11.5×)},
+  journal={Under Submission},
+  year={2025},
+  publisher=Under Submission,
+  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  dimensions={true},
+  google_scholar_id={FJp7Oo0AAAAJ},
+  selected={true},
+  inspirehep_id = {3255}
+}
+
+
+@article{ISCA 2025,
+  abbr={ISCA 2025},
   title={In-Storage Acceleration of Retrieval-Augmented Generation},
   author={Mahapatra, R},
   abstract={Deployed and analyzed end-to-end RAGs on Amazon AWS, identifying retrieval as the primary perfor-
@@ -10,7 +30,72 @@ overhead and improving throughput (3.6× over Nvidia A100). Shifted the bottlene
 LLM inference, improving overall efficiency for enterprise-scale RAG deployments.},
   journal={ISCA},
   year={2025},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  publisher=ISCA,
+  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
   dimensions={true},
-  google_scholar_id={FJp7Oo0AAAAJ}
+  google_scholar_id={FJp7Oo0AAAAJ},
+  selected={true},
+  inspirehep_id = {3255}
 }
+
+@article{ASPLOS 2024,
+  abbr={ASPLOS 2024},
+  title={Domain-Specific Computational Storage for Serverless Computing},
+  author={Mahapatra, R},
+  abstract={Serverless applications suffer from data access latency due to disaggregated storage. Proposed em-
+bedding computation within storage to execute functions directly, minimizing data transfer overhead.
+I performed an extensive design space analysis of over 650 accelerator configurations to identify the
+optimal design that adheres to power and thermal constraints of storage. Evaluations demonstrate our
+approach outperforms high-end GPUs (2.7× over Nvidia RTX 2080Ti) accessing disaggregated storage.},
+  journal={ASPLOS},
+  year={2024},
+  publisher=ASPLOS,
+  pages={530--548},
+  doi={10.1145/3620665.3640413}
+  html={https://dl.acm.org/doi/abs/10.1145/3620665.3640413},
+  dimensions={true},
+  google_scholar_id={FJp7Oo0AAAAJ},
+  selected={true},
+  inspirehep_id = {3255}
+}
+
+@article{ASPLOS 2024,
+  abbr={ASPLOS 2024},
+  title={Tandem Processor: Grappling with Emerging Operators in Neural Networks},
+  author={Mahapatra, R},
+  abstract={Language models (LLMs) increasingly incorporate non-GEMM layers intertwined with GEMM operations,
+creating bottlenecks in GPUs and accelerators that rely on dedicated units for non-GEMM tasks. The Tan-
+dem Processor addresses this challenge. My contributions to this project included generating baseline
+results, evaluating performance with Nvidia GPU TensorRT, and implementing the Tandem simulator.},
+  journal={ASPLOS},
+  year={2024},
+  publisher=ACM,
+  pages={1165--1182},
+  doi={10.1145/3620665.3640365}
+  html={https://dl.acm.org/doi/abs/10.1145/3620665.3640365},
+  dimensions={true},
+  google_scholar_id={FJp7Oo0AAAAJ},
+  selected={true},
+  inspirehep_id = {3255}
+}
+
+@article{HPCA 2024,
+  abbr={HPCA 2024},
+  title={Data Motion Acceleration: Chaining Cross-Domain Multi Accelerators},
+  author={Mahapatra, R},
+  abstract={CPU-based data orchestration bottlenecks applications with multiple cross-domain accelerators. Our
+work integrates a data restructuring unit (DRX) into accelerators, enabling direct data interoperability
+and reducing CPU reliance in chaining. My contributions include designing and simulating DRX.},
+  journal={HPCA},
+  year={2024},
+  publisher=IEEE,
+  doi={10.1109/HPCA57654.2024.00083}
+  html={https://ieeexplore.ieee.org/abstract/document/10476422},
+  dimensions={true},
+  google_scholar_id={FJp7Oo0AAAAJ},
+  selected={true},
+  inspirehep_id = {3255}
+}
+
+
+
